@@ -11,7 +11,7 @@ fun main() {
 }
 
 fun doLogin(userName:String, password:String, onResult: (Boolean) -> Unit) {
-    if ("123" == userName && "qwe" == password) {
+    if ("1234" == userName && "qwe" == password) {
         onResult(true)
     }else{
         onResult(false)
