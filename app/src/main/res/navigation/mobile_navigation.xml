@@ -28,4 +28,10 @@
         android:name="com.weizhe.kobuy.constraint.FlowFragment"
         android:label="flow"
         tools:layout="@layout/fragment_flow" />
+
+    <fragment
+        android:id="@+id/navigation_layer"
+        android:name="com.weizhe.kobuy.constraint.LayerFragment"
+        android:label="layer"
+        tools:layout="@layout/fragment_layer" />
 </navigation>
